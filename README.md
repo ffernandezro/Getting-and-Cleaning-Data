@@ -21,3 +21,20 @@ The main objective of this project can be summarized in the following points:
 2. Codebook.md: Contains descriptions variable, tidy example of the data, and a detail
 the overall output of the project
 3. Tidydata.txt: Example file with tidy data generated from run_analisys.R
+
+## Setup and execution instructions
+In order to make a correct implementation, it is necessary to follow these
+steps:
+
+1. Download the source of information from files:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+2. Extract the files and include them in the working directory:
+> getwd()
+[1] "/Users/Paco"
+
+3. Save the file with the code run_analysis.R 
+
+4. Function call to generate the tidy data set
+> source("run_analysis.R")
+> tidydata<-run_analysis()

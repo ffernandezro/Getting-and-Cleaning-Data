@@ -1,21 +1,5 @@
 
 # codebook.md
-## Setup and execution instructions
-In order to make a correct implementation, it is necessary to follow these
-steps:
-
-1. Download the source of information from files:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-2. Extract the files and include them in the working directory:
-> getwd()
-[1] "/Users/Paco"
-
-3. Save the file with the code run_analysis.R 
-
-4. Function call to generate the tidy data set
-> source("run_analysis.R")
-> tidydata<-run_analysis()
 
 ## Dataset structure
 > names(tidydata)
