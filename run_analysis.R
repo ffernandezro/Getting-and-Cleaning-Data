@@ -71,8 +71,13 @@ run.analysis <- function () {
         #                activity and each subject.
         tidydata <- rawdata[, lapply(.SD, mean), by=list(label, subject)]
         # Write the rawdata and tidydata to csv files
-        write.csv(rawdata, file = 'rawdata.csv', row.names = FALSE)
-        write.csv(tidydata, file = 'tidydata.csv',row.names = FALSE)
+        #write.csv(rawdata, file = 'rawdata.csv', row.names = FALSE)
+        #write.csv(tidydata, file = 'tidydata.csv',row.names = FALSE)
+        
+        # Write the rawdata and tidydata to txt files
+        write.table(rawdata, "rawdata.txt", sep=";", row.names = FALSE) 
+        write.table(tidydata, "tidydata.txt", sep=";",row.names = FALSE) 
+        
         # Return tydata and end
         tidydata
 }
