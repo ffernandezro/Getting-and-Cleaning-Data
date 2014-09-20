@@ -2,7 +2,7 @@
 # Getting and Cleaning Data
 ## Aim of the project
 This project is part of ongoing Getting & Cleaning Data encompassed within the 
-scientific specialization of data conducted by Johns Hopkings Coursera through the platform.
+scientific specialization of data conducted by Johns Hopkings  through the Coursera platform.
 
 The main objective of this project can be summarized in the following points:
 

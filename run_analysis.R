@@ -57,7 +57,7 @@ get_working_data <- function () {
         # Now i can merge data, the training and the test sets to create one data set
         rbind(working_train_data, working_test_data)      
 }
-run.analysis <- function () {
+run_analysis <- function () {
         #       -     1. Merges the training and the test sets to create one data set.
         #       -     2. Extracts only the measurements on the mean and standard 
         #                  deviation for each measurement. 
