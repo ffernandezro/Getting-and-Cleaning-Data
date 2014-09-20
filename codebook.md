@@ -199,7 +199,7 @@ fBodyBodyGyroMagmean fBodyBodyGyroMagstd fBodyBodyGyroMagmeanFreq fBodyBodyGyroJ
  3rd Qu.:-0.6081         3rd Qu.: 0.20805            
  Max.   : 0.2878         Max.   : 0.42630    
  
- ## Sample Data
+## Sample Data
 
 > head(tidydata, 3)
       label subject tBodyAccmeanX tBodyAccmeanY tBodyAccmeanZ tBodyAccstdX tBodyAccstdY
